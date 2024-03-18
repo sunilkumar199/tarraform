@@ -1,0 +1,4 @@
+#in the below command rg1 is the block name to be considered, appcenter-appcenter-export-Mobile-Meals-iOS  
+is the Resource group that needs to be imported to state file
+
+terraform import azurerm_resource_group.rg1 /subscriptions/e68f4651-04b4-4872-96bc-54b4e64c32bf/resourceGroups/appcenter-export-Mobile-Meals-iOS
